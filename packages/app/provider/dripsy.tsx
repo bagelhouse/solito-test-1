@@ -1,7 +1,12 @@
 import { DripsyProvider, makeTheme } from 'dripsy'
 
+const darkColors = {
+  $background: 'black',
+  $text: 'white',
+}
 const theme = makeTheme({
   // https://www.dripsy.xyz/usage/theming/create
+  colors: darkColors,
   text: {
     p: {
       fontSize: 16,
